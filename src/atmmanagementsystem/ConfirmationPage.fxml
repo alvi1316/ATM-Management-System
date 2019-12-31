@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="355.0" prefWidth="456.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="atmmanagementsystem.ConfirmationPageController">
+   <children>
+      <Label layoutX="56.0" layoutY="190.0" text="Give Amount -" />
+      <Label layoutX="56.0" layoutY="97.0" text="Current Amount :" />
+      <Label fx:id="currentAmount" layoutX="182.0" layoutY="97.0" prefHeight="21.0" prefWidth="187.0" />
+      <TextField fx:id="givenAmount" layoutX="182.0" layoutY="185.0" />
+      <Button layoutX="295.0" layoutY="248.0" mnemonicParsing="false" onAction="#confirmAction" text="Confirm" />
+      <Button layoutX="211.0" layoutY="248.0" mnemonicParsing="false" onAction="#cancelAction" text="Cancel" />
+   </children>
+</AnchorPane>
